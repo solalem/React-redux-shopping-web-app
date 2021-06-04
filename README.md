@@ -1,3 +1,7 @@
+# Experimenting with modularizing react componenets
+
+Cloned from https://github.com/collinsNick/React-redux-shopping-web-app 
+
 ## React-Redux Ecommerce web application
 
 this is a sample ecommerce web app made using react, redux and react router.
