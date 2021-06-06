@@ -3,8 +3,8 @@ import SelloutCards from "./components/SelloutCards";
 import ItemBanners from "./components/ItemBanners";
 import Deal from "./components/Deal";
 import Banner from "./components/Banner";
-import HomeSale from "../../components/HomeSale";
-import Loader from "../../components/Loader/Index";
+import HomeSale from "../modules/products/components/HomeSale";
+import Loader from "../components/Loader/Index";
 import "./Home.css";
 
 class Home extends Component {

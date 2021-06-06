@@ -14,7 +14,7 @@ const Deal = () => {
       <div className="deals-content shadow">
         <img
           className="deals-image"
-          src={require(`../../../assets/images/${deal.image}`)}
+          src={require(`../../assets/images/${deal.image}`)}
           alt="#"
         />
         <div className="deals-text">

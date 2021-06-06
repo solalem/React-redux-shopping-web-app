@@ -1,9 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
 import { NavLink } from "react-router-dom";
-import { currencyToUse } from "../Utility/currency";
-import { VISIBILITY_FILTERS } from "../static/constants";
-import { getProductsByFilter } from "../store/selectors";
+import { currencyToUse } from "../../../Utility/currency";
+import { VISIBILITY_FILTERS } from "../../../static/constants";
+import { getProductsByFilter } from "../../../store/selectors";
 
 const HomeSale = (props) => {
   let currencyKeys = currencyToUse(props.usedCurrencyProp);
@@ -13,7 +13,7 @@ const HomeSale = (props) => {
       <div className="card card-body shadow" key={index}>
         <img
           className="card-img-top"
-          src={require(`../assets/images/shop_images/${product.img}`)}
+          src={require(`../../../assets/images/shop_images/${product.img}`)}
           alt="product"
         />
         <h5 className="card-title">{product.name}</h5>

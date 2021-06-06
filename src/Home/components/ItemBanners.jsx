@@ -33,7 +33,7 @@ const ItemBanners = () => {
           </div>
           <img
             className="banner-image"
-            src={require(`../../../assets/images/${item.image}`)}
+            src={require(`../../assets/images/${item.image}`)}
             alt="banner"
           />
         </div>

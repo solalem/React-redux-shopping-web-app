@@ -3,7 +3,7 @@ import { Route, Switch, withRouter, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import { closeMaxProductModal, toogleSideBar } from "./store/actions";
 import MainLayout from "./Layouts/MainLayout";
-import Home from "./modules/Home/Home";
+import Home from "./Home/Home";
 import CheckoutModule from "./modules/checkout/index";
 import ProductModule from "./modules/products/index";
 import "./App.css";

@@ -10,7 +10,7 @@ import {
   productPrice,
   productDiscountPrice,
 } from "../../Utility/currency";
-import HomeSale from "../../components/HomeSale";
+import HomeSale from "./components/HomeSale";
 import "./ProductDetails.css";
 
 class ProductDetails extends Component {

@@ -23,7 +23,7 @@ const Banner = () => {
         </div>
         <img
           className="main-banner-image"
-          src={require(`../../../assets/images/${banner.image}`)}
+          src={require(`../../assets/images/${banner.image}`)}
           alt="banner"
         />
       </div>

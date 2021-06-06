@@ -28,7 +28,7 @@ const SelloutCards = () => {
         <div className="card sellout-card card-body shadow" key={index}>
           <img
             className="sellout-icon"
-            src={require(`../../../assets/icons/${card.image}`)}
+            src={require(`../../assets/icons/${card.image}`)}
             alt="Fila Back"
           />
           <div className="mt-3 text-center">
