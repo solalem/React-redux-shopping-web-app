@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import { EmptyStar, FullStar,HalfStar } from '../../../../components/UI/Icons/Icons.jsx';
+import { EmptyStar, FullStar,HalfStar } from '../../../../shared/UI/Icons/Icons.jsx';
 
 const Ratings = (props) => {
 

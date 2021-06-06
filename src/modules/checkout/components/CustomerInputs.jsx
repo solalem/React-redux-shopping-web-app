@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import InputField from '../../../components/UI/Input/InputField';
+import InputField from '../../../shared/UI/Input/InputField';
 
 const customerInputs = (props) => {
     return (

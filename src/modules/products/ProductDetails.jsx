@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { addToCart } from "../../store/actions";
-import BreadCrumbs from "../../components/UI/BreadCrumbs/BreadCrumbs";
+import BreadCrumbs from "../../shared/UI/BreadCrumbs/BreadCrumbs";
 import Ratings from "./components/Ratings/Ratings";
 import AddToWishList from "./components/AddToWishlist/AddToWishlist";
 import ProductFeatures from "./components/ProductCard/ProductFeatures";

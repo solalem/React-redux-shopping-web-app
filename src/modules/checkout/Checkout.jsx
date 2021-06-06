@@ -9,7 +9,7 @@ import CheckoutCartTotals from "./components/CheckoutCartTotals";
 import CustomerInputs from "./components/CustomerInputs";
 import DeliveryOptions from "./components/DeliveryOptions";
 import PaymentOptions from "./components/Payment/PaymentOptions";
-import Alert from "../../components/UI/Alert/Alert";
+import Alert from "../../shared/UI/Alert/Alert";
 import PropTypes from "prop-types";
 import formValidator from "../../Utility/formValidation";
 import { CardElement, injectStripe } from "react-stripe-elements";

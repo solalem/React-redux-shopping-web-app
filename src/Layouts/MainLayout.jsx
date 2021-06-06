@@ -1,11 +1,11 @@
 import React from "react";
-import MainWrapper from "../components/UI/Wrappers/MainPageWrapper";
-import SideMenuWrapper from "../components/UI/Wrappers/SideMenuWrapper";
-import ContentWrapper from "../components/UI/Wrappers/PageContentWrapper";
-import MainMenu from "../components/Menus/MainMenu";
-import SideMenu from "../components/Menus/SideMenu";
-import Footer from "../components/Footer/Index";
-import Modal from "../components/UI/Modal/Modal";
+import MainWrapper from "../shared/UI/Wrappers/MainPageWrapper";
+import SideMenuWrapper from "../shared/UI/Wrappers/SideMenuWrapper";
+import ContentWrapper from "../shared/UI/Wrappers/PageContentWrapper";
+import MainMenu from "../shared/Menus/MainMenu";
+import SideMenu from "../shared/Menus/SideMenu";
+import Footer from "../shared/Footer/Index";
+import Modal from "../shared/UI/Modal/Modal";
 import PropTypes from "prop-types";
 
 const MainLayout = (props) => {

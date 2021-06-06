@@ -4,7 +4,7 @@ import ItemBanners from "./components/ItemBanners";
 import Deal from "./components/Deal";
 import Banner from "./components/Banner";
 import HomeSale from "../modules/products/components/HomeSale";
-import Loader from "../components/Loader/Index";
+import Loader from "../shared/Loader/Index";
 import "./Home.css";
 
 class Home extends Component {

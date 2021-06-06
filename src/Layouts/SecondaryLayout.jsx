@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import LeftColumn from "../modules/products/components/LeftColumn";
-import BreadCrumbs from "../components/UI/BreadCrumbs/BreadCrumbs";
+import BreadCrumbs from "../shared/UI/BreadCrumbs/BreadCrumbs";
 
 const SecondaryLayout = (props) => {
   return (

@@ -4,7 +4,7 @@ import {
   International,
   Warehouse,
   DukaApproved,
-} from "../../../../components/UI/Icons/Icons";
+} from "../../../../shared/UI/Icons/Icons";
 
 const ProductFeatures = (props) => {
   return (
