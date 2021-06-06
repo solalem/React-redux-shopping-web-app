@@ -1,6 +1,6 @@
 import React from "react";
-import PromoCodes from "../../../components/PromoCodes";
-import CurrencyConverter from "../../../components/CurrencyConverter";
+import PromoCodes from "./PromoCodes";
+import CurrencyConverter from "./CurrencyConverter";
 import ProductFilter from "./ProductFilter/ProductFilter";
 
 const LeftColumn = () => {

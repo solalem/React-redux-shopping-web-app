@@ -8,7 +8,7 @@ import {
 } from "../../store/actions";
 import CartProduct from "./components/Cart/CartProducts";
 import CartProductTotals from "./components/Cart/CartProductTotals";
-import OrderSuccess from "../../components/OrderSuccess";
+import OrderSuccess from "./components/OrderSuccess";
 import PropTypes from "prop-types";
 import { currencyToUse } from "../../Utility/currency";
 
